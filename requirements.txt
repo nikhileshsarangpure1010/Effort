@@ -1,0 +1,9 @@
+requests==2.34.2
+urllib3==2.7.0
+openpyxl==3.1.5
+
+# Optional: nicer calendar widget for the Tkinter UI (works fine without it too)
+# tkcalendar
+
+# Optional: enables JIRA_COMMENT_SUMMARY_USE_TRANSFORMERS=1 (off by default, not required to run reports)
+# transformers

@@ -1,0 +1,28 @@
+credentials.json
+credentials.txt
+
+# Per-person virtual environment (each colleague builds their own via requirements.txt)
+.venv/
+venv/
+
+# Python bytecode / caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Generated report output (regenerated locally per run; not source)
+reports/*.html
+reports/*.xlsx
+reports/feature_sys5_test_cases*.xlsx
+!reports/.gitkeep
+
+# Working/session data (regenerated locally; may contain live Jira ticket data)
+data/
+
+# Throwaway debug/probe scripts (not part of the shipped tool)
+_tmp_probe_*.py
+
+# Editor/OS noise
+.vscode/
+.DS_Store
+Thumbs.db
